@@ -6,13 +6,13 @@ export default defineNuxtConfig({
   modules: [
     "@vueuse/nuxt",
     "@nuxtjs/tailwindcss",
-    // pinia plugin - https://pinia.esm.dev
+    // // pinia plugin - https://pinia.esm.dev
     "@pinia/nuxt",
-    // unocss plugin - https://github.com/unocss/unocss
+    // // unocss plugin - https://github.com/unocss/unocss
     "@unocss/nuxt",
     "@intlify/nuxt3",
-    "@nuxtjs/color-mode",
-    'nuxt-ionic',
+    // "@nuxtjs/color-mode",
+    "nuxt-ionic",
   ],
 
   build: {
@@ -52,12 +52,25 @@ export default defineNuxtConfig({
       },
     },
   },
-  colorMode: {
-    classSuffix: "",
-    fallback: "light",
-    storageKey: "color-mode",
-  },
+  // colorMode: {
+  //   classSuffix: "",
+  //   fallback: "light",
+  //   storageKey: "color-mode",
+  // },
   vite: {
     logLevel: "info",
+  },
+
+  ionic: {
+    // integrations: {
+    //   meta: true,
+    //   pwa: true,
+    //   router: true,
+    // },
+    // css: {
+    //   core: true,
+    //   basic: true,
+    //   utilities: false,
+    // },
   },
 })
