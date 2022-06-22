@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     "@unocss/nuxt",
     "@intlify/nuxt3",
     "@nuxtjs/color-mode",
+    'nuxt-ionic',
   ],
 
   build: {
