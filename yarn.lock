@@ -1357,6 +1357,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/web-bluetooth@npm:^0.0.14":
+  version: 0.0.14
+  resolution: "@types/web-bluetooth@npm:0.0.14"
+  checksum: 1eb694ff2ba6ef239e10024bfb205c087fb1a43aa8b4a31f3a3b7c90eccf2f55c7fb4c1057e382e1c2f4d6d8a137e68bf1255790b980c5ac95026419a623c6b5
+  languageName: node
+  linkType: hard
+
 "@typescript-eslint/eslint-plugin@npm:^5.26.0":
   version: 5.29.0
   resolution: "@typescript-eslint/eslint-plugin@npm:5.29.0"
@@ -1882,12 +1889,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:8.7.4":
-  version: 8.7.4
-  resolution: "@vueuse/core@npm:8.7.4"
+"@vueuse/core@npm:8.9.4":
+  version: 8.9.4
+  resolution: "@vueuse/core@npm:8.9.4"
   dependencies:
-    "@vueuse/metadata": 8.7.4
-    "@vueuse/shared": 8.7.4
+    "@types/web-bluetooth": ^0.0.14
+    "@vueuse/metadata": 8.9.4
+    "@vueuse/shared": 8.9.4
     vue-demi: "*"
   peerDependencies:
     "@vue/composition-api": ^1.1.0
@@ -1897,7 +1905,7 @@ __metadata:
       optional: true
     vue:
       optional: true
-  checksum: b88f5b765fa4a34e698ae666fcaec6d24e6d40df9c1aea58ada9fca4ed7905db7dab2eedb143f523601adeadfb961302577d1127a80dbe1f9bb274a825ac6508
+  checksum: 4f19874884d246e724562051143f27e18d7e7aefb941d4417e785027b87a895aea7ed51f3c9d6c1af219ea33d41cc1e0fcba113b72922ce6057a518cb0b83572
   languageName: node
   linkType: hard
 
@@ -1910,29 +1918,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/metadata@npm:8.7.4":
-  version: 8.7.4
-  resolution: "@vueuse/metadata@npm:8.7.4"
-  checksum: 2182d4626f92cf65e911bd332cdf92629d9361817a8a99da9f4c2ae4f5695c4537d722af537aa94359717d06a20a877aaa156ea992577a0563b496aea8567733
+"@vueuse/metadata@npm:8.9.4":
+  version: 8.9.4
+  resolution: "@vueuse/metadata@npm:8.9.4"
+  checksum: f289adc73d7d396e0245b0f219126811556497dcc093008b2b9e8c9023196c52eb5918dce4f5f6cc3a01db9c6a699b6adfc678800a1b543f6cc1c857d5643526
   languageName: node
   linkType: hard
 
-"@vueuse/nuxt@npm:8.7.4":
-  version: 8.7.4
-  resolution: "@vueuse/nuxt@npm:8.7.4"
+"@vueuse/nuxt@npm:8.9.4":
+  version: 8.9.4
+  resolution: "@vueuse/nuxt@npm:8.9.4"
   dependencies:
     "@nuxt/kit": ^3.0.0-rc.4
-    "@vueuse/core": 8.7.4
-    "@vueuse/metadata": 8.7.4
+    "@vueuse/core": 8.9.4
+    "@vueuse/metadata": 8.9.4
     local-pkg: ^0.4.1
     vue-demi: "*"
-  checksum: e118b26273922293f1bedd01d5784ecbd5c071a2e13fad938d23ee035f9ce71de462eab8504f21de907f4b0b56ccdc78cfae4d515b9e5d516265e6da445c322d
+  checksum: e289f5c16762afe581860e7b24746ac621794f3a95e7f2b9f4051cbd49d78b61fc4cd3706fd80fe572ef0cbe8d66bc2facf0a1562fddb972a01234a62ad74760
   languageName: node
   linkType: hard
 
-"@vueuse/shared@npm:8.7.4":
-  version: 8.7.4
-  resolution: "@vueuse/shared@npm:8.7.4"
+"@vueuse/shared@npm:8.9.4":
+  version: 8.9.4
+  resolution: "@vueuse/shared@npm:8.9.4"
   dependencies:
     vue-demi: "*"
   peerDependencies:
@@ -1943,7 +1951,7 @@ __metadata:
       optional: true
     vue:
       optional: true
-  checksum: 0914b32e95f76a0f6baab2142029460803c7bb0d848a12b0dbc61fda84444f116217a398c25ce8901d505700ce7c7c4ee5bdbf2bb118d98f2248aa205ca48a5e
+  checksum: 83a29ec879073100e268863f607b3a8175ac1d70318b85f74907ed69bcf0d538f89b2ccd3c14ac37eab326ec3564e0c1623f1f9af0980516a5617e7f81fdd9bb
   languageName: node
   linkType: hard
 
@@ -8496,7 +8504,7 @@ __metadata:
     "@tailwindcss/line-clamp": 0.4.0
     "@tailwindcss/typography": 0.5.2
     "@unocss/nuxt": 0.39.3
-    "@vueuse/nuxt": 8.7.4
+    "@vueuse/nuxt": 8.9.4
     eslint: 8.18.0
     eslint-config-prettier: 8.5.0
     eslint-plugin-prettier: 4.0.0
