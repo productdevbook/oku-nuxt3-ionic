@@ -521,12 +521,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify-json/carbon@npm:1.1.5":
-  version: 1.1.5
-  resolution: "@iconify-json/carbon@npm:1.1.5"
+"@iconify-json/carbon@npm:1.1.8":
+  version: 1.1.8
+  resolution: "@iconify-json/carbon@npm:1.1.8"
   dependencies:
-    "@iconify/types": ^1.1.0
-  checksum: a40e58286cc299df4fe073e26ea509e4bacdbe0bfefa6bfae8821e0164611b3ff76aa6d4c3e90a0b39cd284ce40210c28d1f572709d6b86361c2bcc5e9f54a65
+    "@iconify/types": "*"
+  checksum: 0d6590c0929528a46c4179e4db37f62471ec3b832f756452e67f1a8c2494800d0c45baaa007f90e3eea903e78e4e66f99262f974c514ff3fdd2c59e1157269da
   languageName: node
   linkType: hard
 
@@ -554,6 +554,13 @@ __metadata:
   dependencies:
     "@iconify/types": ^1.1.0
   checksum: 3895dd6697bc7547514096945a41593815a939f810773926585b26637045b3b3db7af773fe2fb38826ec4cc90ee042757a8aaa34cf149673132f46cc62a4b161
+  languageName: node
+  linkType: hard
+
+"@iconify/types@npm:*":
+  version: 2.0.0
+  resolution: "@iconify/types@npm:2.0.0"
+  checksum: 029f58542c160e9d4a746869cf2e475b603424d3adf3994c5cc8d0406c47e6e04a3b898b2707840c1c5b9bd5563a1660a34b110d89fce43923baca5222f4e597
   languageName: node
   linkType: hard
 
@@ -8483,7 +8490,7 @@ __metadata:
   dependencies:
     "@antfu/eslint-config": 0.25.1
     "@headlessui/vue": 1.6.5
-    "@iconify-json/carbon": 1.1.5
+    "@iconify-json/carbon": 1.1.8
     "@iconify-json/ic": 1.1.4
     "@iconify-json/ph": 1.1.1
     "@iconify-json/twemoji": 1.1.4
