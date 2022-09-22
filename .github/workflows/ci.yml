@@ -3,10 +3,10 @@ name: CI
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   cache-and-install:
@@ -49,6 +49,6 @@ jobs:
 
       - name: 🛠 Nuxt Build
         run: pnpm build
-        
+
       - name: 💪 Lint
         run: pnpm lint
