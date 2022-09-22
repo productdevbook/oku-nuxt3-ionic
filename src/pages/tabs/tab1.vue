@@ -1,5 +1,4 @@
 <script setup lang="ts">
-  import {add} from "ionicons/icons"
   definePageMeta({
     alias: ["/", "/tabs"],
   })
@@ -8,7 +7,7 @@
 <template>
   <ion-page>
     <ion-header translucent>
-      <ion-toolbar class="toolbar">
+      <ion-toolbar>
         <ion-thumbnail slot="start">
           <ion-img src="/icon.png" />
         </ion-thumbnail>

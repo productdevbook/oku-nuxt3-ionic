@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     // // unocss plugin - https://github.com/unocss/unocss
     "@unocss/nuxt",
     "@intlify/nuxt3",
-    // "@nuxtjs/color-mode",
+    "@nuxtjs/color-mode",
     "nuxt-ionic",
   ],
 
