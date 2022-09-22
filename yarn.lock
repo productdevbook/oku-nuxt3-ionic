@@ -8505,7 +8505,7 @@ __metadata:
     pinia: 2.0.14
     prettier: 2.7.1
     prettier-plugin-tailwindcss: 0.1.11
-    sass: 1.52.3
+    sass: 1.55.0
     sass-loader: 13.0.0
     typescript: 4.7.4
   languageName: unknown
@@ -8591,16 +8591,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:1.52.3":
-  version: 1.52.3
-  resolution: "sass@npm:1.52.3"
+"sass@npm:1.55.0":
+  version: 1.55.0
+  resolution: "sass@npm:1.55.0"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 175a073c0e7b67d1baff6d3969431228002ece681886cebc2a354c241134ff120fda5c12a0465989966dacfb1ca518d85507304f4d4cd03d4a91d71dbc77d978
+  checksum: 7d769ed08efce4e6134e0f3dc11c4f07e32c413ac8eb43c5855f2686890fdcbd80da34165c91fb4ba407f478ca108e171574b5a60cb9814a5ed09d80f6014f96
   languageName: node
   linkType: hard
 
