@@ -1,6 +1,6 @@
 {
   "private": true,
-  "packageManager": "yarn@3.2.1",
+  "packageManager": "pnpm@7.12.1",
   "engines": {
     "node": "^16.11.0 || ^17.0.0 || || ^18.0.0"
   },
@@ -9,8 +9,7 @@
     "build": "nuxi build",
     "generate": "nuxi generate",
     "start": "node .output/server/index.mjs",
-    "lint": "eslint .",
-    "allupdate": "yarn upgrade-interactive"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@capacitor/android": "^4.3.0",
